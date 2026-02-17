@@ -7,16 +7,22 @@
     <meta charset="UTF-8">
     <title>My Website - About</title>
 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+
 </head>
 
     <body>
         
         <h1>Keanu Thompson</h1>
-        
+
         <p>
-            I'm 25 years old and I have a passion for web development, football and gaming. In my free time,
-            if I'm not coding or playing football, I'm usually gaming.
+            I'm 25 years old and I have a passion for web development, football and gaming.
+            In my free time, if I'm not coding or playing football, I'm usually gaming. These
+            interests keep me creative, focused, and constantly improving both my technical
+            and strategic thinking skills.
         </p>
+
+        <img src="{{ url_for('static', filename='images/pic.jpg') }}" alt="A pic of a man in a paper bag over his head" />
 
     </body>
 
